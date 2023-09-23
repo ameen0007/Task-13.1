@@ -1,0 +1,43 @@
+.search-input-container {
+   width: 100%;
+    position: relative;
+    margin-top: 25px;
+}
+
+.search-input-container input{
+    width: 100%;
+    height: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 3px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+
+.img1{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    opacity: 0.8;
+
+}
+.img2{
+    width: 30px;
+    height: 30px;
+}
+.search-input-container button{
+     background: transparent;
+     position: absolute;
+     border: none;
+     right: 18px;
+     top: 9px;
+     opacity: 0.6;
+}
+.search-input-container button:hover{
+    opacity: 1;
+}
